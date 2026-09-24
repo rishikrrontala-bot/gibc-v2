@@ -10,7 +10,7 @@ Running log for the unattended cloud build. A resumed session should read this f
 | When (ET) | Hours to deadline | Phase |
 |---|---|---|
 | Wed Sep 23 · 10:35 PM | 181.2 h | 0: setup |
-| Wed Sep 23 · 11:00 PM | 180.8 h | 1–3: research + concept done, pushed |
+| Wed Sep 23 · 10:56 PM | 180.8 h | 1–3: research + concept done, pushed |
 
 ## Phase plan (budgeted backwards from the 24 h buffer)
 
@@ -47,7 +47,7 @@ Long-running compute (model training, if the concept needs it) runs in the backg
 The environment is **not** on Full network access. Verified by probing:
 - **Allowed:** `github.com` via git, `api.github.com`, `raw.githubusercontent.com`, `media.githubusercontent.com` (LFS), `registry.npmjs.org`, PyPI, `archive.ubuntu.com`, WebSearch.
 - **Blocked (403 at the egress proxy):** `devpost.com` and every `*.devpost.com` page (WebFetch too), `huggingface.co`, `download.pytorch.org`, `youtube.com`, `wikipedia.org`, `archive.org`, `unpkg.com`, `cdn.jsdelivr.net`, Yahoo Finance, FRED, SEC, Kaggle, Gutenberg.
-- Consequence for research: Devpost pages can't be opened directly. Winner verification uses search-engine results that quote the Devpost page plus the winner's GitHub repo opened through the GitHub API. Each brief states exactly which of those checks passed.
+- Consequence for research: Devpost pages can't be opened directly. Winner verification uses search-engine results that quote the Devpost page plus the winner's GitHub repo cloned and read (anonymous git reads of public repos work). Each brief states exactly which of those checks passed.
 - Consequence for data/models: no Hugging Face downloads. Data must come from GitHub, PyPI/npm packages, or be generated in-repo.
 
 ## Log
@@ -56,7 +56,7 @@ The environment is **not** on Full network access. Verified by probing:
 - Read CLAUDE.md, HACKATHON.md, PROMPT.md, hackathon-win SKILL.md + references + templates.
 - Checked tools and network (above). Created this file.
 
-### Phase 1–3: research and concept (Wed Sep 23, 10:40–11:05 PM ET · ~181 h left)
+### Phase 1–3: research and concept (Wed Sep 23, 10:40–10:56 PM ET · ~181 h left)
 - HACKATHON.md re-verified via the search index (Devpost itself is blocked); new facts marked ✚.
 - `research/winners/`: 6 briefs (CollegeTrue, FairLend, DebtShield, Anya [same Featherless prize], GridSense, AccessLens), sourced from HackWinnerDB with each repo cloned and read. GIBC V1 winners can't be verified from this network (see `research/winners/README.md`).
 - `research/FIELD-SCAN.md`: live GIBC V2 competitors. Track 01 has ≥ 5 GPU-trained 49M models, which overturned the TECH hypothesis.

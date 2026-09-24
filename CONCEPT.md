@@ -1,6 +1,6 @@
 # CONCEPT: Withheld
 
-**Event:** Global Innovation Build Challenge V2 · **Track:** 02 Applied (Finance) · **Builder:** Rishik Rontala (solo) · **Claimed:** Wed Sep 23 2026, 11:05 PM EDT
+**Event:** Global Innovation Build Challenge V2 · **Track:** 02 Applied (Finance) · **Builder:** Rishik Rontala (solo) · **Claimed:** Wed Sep 23 2026, 10:56 PM EDT
 
 **One line:** *The federal College Scorecard withholds the earnings figure for 3 in 4 U.S. college programs. Withheld estimates it, with honest, calibrated uncertainty, and shows which side of the new federal earnings line each program likely falls on, before you borrow for it.*
 

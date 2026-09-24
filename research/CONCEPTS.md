@@ -1,6 +1,6 @@
 # Concepts: three scored, one picked
 
-Decided Wed Sep 23 2026, ~11:05 PM ET (182 h to deadline). Rishik delegated the pick (CLAUDE.md override), so the highest weighted score wins.
+Decided Wed Sep 23 2026, 10:56 PM ET (180.8 h to deadline). Rishik delegated the pick (CLAUDE.md override), so the highest weighted score wins.
 
 ## Scoring method
 The tracks have different official rubrics with unpublished weights, so each concept is scored 1–5 on **its own track's criteria, equally weighted** (the event's stated criteria), and that average carries 60 %. Two cross-cutting factors decide *placing* rather than quality, so they carry the other 40 %:

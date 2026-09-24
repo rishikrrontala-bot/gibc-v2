@@ -55,7 +55,7 @@ A global hackathon for foundational LLMs, applied AI and open invention (10-week
 
 **Suggested lane:** TECH (tiny LLM trained from scratch) or Applied-Finance.
 
-**Chosen (2026-09-23, 11:05 PM ET): Track 02 Applied, Finance → *Withheld*.** Research overturned TECH: at least five GPU-trained ~49M entries exist, the VM is CPU-only, and Hugging Face is blocked. See `research/CONCEPTS.md`.
+**Chosen (2026-09-23, 10:56 PM ET): Track 02 Applied, Finance → *Withheld*.** Research overturned TECH: at least five GPU-trained ~49M entries exist, the VM is CPU-only, and Hugging Face is blocked. See `research/CONCEPTS.md`.
 
 ## Sibling entries (Rishik's other open events). Do not overlap any of them
 

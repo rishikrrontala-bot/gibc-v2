@@ -1,6 +1,6 @@
 # Research brief: GIBC V2
 
-Compiled Wed Sep 23 2026, 10:35–11:10 PM ET. Sources: web search (Devpost pages are blocked from this VM, so the event facts come from the search index's copy of `gibc-v2.devpost.com`), six winner briefs (`winners/`), and a scan of the live GIBC V2 field (`FIELD-SCAN.md`).
+Compiled Wed Sep 23 2026, 10:35–10:56 PM ET. Sources: web search (Devpost pages are blocked from this VM, so the event facts come from the search index's copy of `gibc-v2.devpost.com`), six winner briefs (`winners/`), and a scan of the live GIBC V2 field (`FIELD-SCAN.md`).
 
 ## 1. Event facts, re-verified
 
