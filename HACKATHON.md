@@ -5,6 +5,7 @@
 > Devpost lists it as Oct 1, 2026 @ 11:45pm GMT+8. That is **morning** in New York. Closing ceremony Oct 8.
 
 *Facts read from the live Devpost page on 2026-09-23. ⚠ = unconfirmed, so verify before relying on it.*
+*Re-verified 2026-09-23 11:00 PM ET through the search index's copy of the event page (devpost.com is blocked from the cloud VM). Deadline, tracks, video length and required components are confirmed. New details are marked ✚. See `research/RESEARCH-BRIEF.md` §1.*
 
 ## Eligibility
 Ages 13+, students only, professional organizations excluded.
@@ -13,19 +14,21 @@ Ages 13+, students only, professional organizations excluded.
 A global hackathon for foundational LLMs, applied AI and open invention (10-week build period, Jul 11 – Oct 1).
 
 ## Tracks
-- TECH: build and train a language model capped at **50M parameters** (architecture design, data curation, training efficiency)
-- Applied: Medical Technology & Finance, using real empirical datasets with predictive models or diagnostic pipelines
+- TECH: build and train a language model capped at **50M parameters** (architecture design, data curation, training efficiency). ✚ The cap includes token embeddings and the output head
+- Applied: Medical Technology & Finance, using real empirical datasets with predictive models or diagnostic pipelines. ✚ "Build a system around empirical, real-world data science, predictive machine learning, or automated financial or medical pipelines. **Datasets must be public or de-identified.**"
 - Open: functional prototypes showing technical novelty (software, hardware, interactive media)
 
 ## Prizes
 - Gold / Silver / Bronze, one per track (subscriptions, credits, certificates)
-- Grand Champion: $300 Featherless AI credits
+- Grand Champion ("Featherless AI Grand Award"): $300 Featherless AI credits, for the overall highest-scoring project across all three tracks
 - Participation certificates and sponsor perks for everyone
 
 ## Submission requirements (from the event page)
 - Project description on Devpost
 - Public source repo with README
-- **Demo video 2–5 min**, hosted on YouTube / Vimeo / Youku
+- **Demo video 2–5 min**, hosted on YouTube / Vimeo / Youku. ✚ It must show the project in action and explain the methodology, in English audio or with English subtitles
+- ✚ The submission form also asks for a **hosted demo URL** and **testing instructions**
+- ✚ README must include setup instructions, prerequisites and usage "so judges can run your solution"
 - Complete “Built With” list
 - Team member information with real full names (Rishik Rontala, solo)
 - At least 3 high-quality screenshots
@@ -35,8 +38,10 @@ A global hackathon for foundational LLMs, applied AI and open invention (10-week
 | Criterion | Weight |
 |---|---|
 | LLM track: perplexity & accuracy, reasoning performance, training efficiency, innovation, documentation & demo | unpublished (treat as equal unless the rules say otherwise) |
-| Med/Finance track: innovation & impact, technical feasibility, rigor & validation, presentation | unpublished (treat as equal unless the rules say otherwise) |
+| Med/Finance track: innovation & impact, technical feasibility, **rigor & validation** (✚ "quality of research, experimental design, data collection, and validation"), presentation (✚ "clarity of demo and communication") | unpublished (treat as equal unless the rules say otherwise) |
 | General track: creativity, execution, impact, presentation | unpublished (treat as equal unless the rules say otherwise) |
+
+✚ Across all tracks, the event page says strong submissions show "a working prototype, a complete end-to-end flow, handling of real-world complexity, and documentation clear enough that another developer could understand, run, and build on top of your work".
 
 ## Event-specific deliverables (on top of CLAUDE.md's Definition of done)
 - If TECH: training code, a reproducible config, an eval harness (held-out perplexity plus a small reasoning probe), a model card, the trained weights (or a release asset under 100 MB), and a GPU notebook Rishik can rerun
@@ -49,6 +54,8 @@ A global hackathon for foundational LLMs, applied AI and open invention (10-week
 - Pick the track by weighted scoring, not by habit.
 
 **Suggested lane:** TECH (tiny LLM trained from scratch) or Applied-Finance.
+
+**Chosen (2026-09-23, 11:05 PM ET): Track 02 Applied, Finance → *Withheld*.** Research overturned TECH: at least five GPU-trained ~49M entries exist, the VM is CPU-only, and Hugging Face is blocked. See `research/CONCEPTS.md`.
 
 ## Sibling entries (Rishik's other open events). Do not overlap any of them
 
