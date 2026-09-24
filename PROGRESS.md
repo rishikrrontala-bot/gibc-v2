@@ -11,6 +11,7 @@ Running log for the unattended cloud build. A resumed session should read this f
 |---|---|---|
 | Wed Sep 23 · 10:35 PM | 181.2 h | 0: setup |
 | Wed Sep 23 · 10:56 PM | 180.8 h | 1–3: research + concept done, pushed |
+| Wed Sep 23 · 11:00 PM | 180.7 h | 4: design direction done, pushed |
 
 ## Phase plan (budgeted backwards from the 24 h buffer)
 
@@ -63,6 +64,12 @@ The environment is **not** on Full network access. Verified by probing:
 - `research/RESEARCH-BRIEF.md`, `research/CONCEPTS.md` (A Four Cores 2.04 · **B Withheld 4.65** · C Second Ask 3.45), `CONCEPT.md` pushed.
 - Siblings re-checked at 10:55 PM: Low Sun, Zeer, In Its Place, Muslin, All the Way Down, Between Bells, Brackets. No overlap.
 
+### Phase 4: design direction (Wed Sep 23, 10:57–11:00 PM ET)
+- impeccable launcher ran from `/tmp/skills/impeccable/plugin/skills/impeccable/scripts/impeccable`. PRODUCT.md was written unattended, with inferred facts labelled (Rishik said he's unavailable, so no interview probe).
+- `concept-seed` ran **degraded** (impeccable.style is blocked, so no challengers or QUALITY BAR boards). My 7 grounded candidates were Scantron sheet · W-2 drop-out form · NOAA hurricane cone · 1870s Statistical Atlas · redacted FOIA release · green-bar ledger printout · college-fair ephemera. Roll 1 assigned #5 (redaction); that was declined on product truth (it implies un-redaction). Re-roll 1 assigned **#6 green-bar printout**, which is the build direction.
+- Direction contract: `.impeccable/surfaces/index-html.md`. Tokens and type (Public Sans / Martian Mono / Doto, all on npm @fontsource) in DESIGN.md, contrast computed.
+- No image generation in this session, so the build is code-led.
+
 ## Resume notes (read these first if this session died)
 - **Concept:** *Withheld* (Track 02 Applied: Finance). Estimate earnings (and debt) for the 77.7 % of College Scorecard programs whose figures are `PrivacySuppressed`, with split-conformal 80 % intervals calibrated by program-size band, and compare them to the federal earnings line (OBBBA "do no harm" test, STATS final rule of Jul 1 2026).
 - **Data source that works from this VM:** `git clone --depth 1 --filter=blob:none --no-checkout https://github.com/Amherst-Statistics/CollegeScorecard`, then `git checkout HEAD -- inst/extdata/Most-Recent-Cohorts-Field-of-Study.csv.bz2 inst/extdata/Most-Recent-Cohorts-Institution.csv.bz2`. FoS: 233,979 rows × 160 cols; EARN_MDN_4YR published for 52,221; DEBT_ALL_STGP_EVAL_MDN for 48,143.
@@ -71,5 +78,5 @@ The environment is **not** on Full network access. Verified by probing:
 - The research clones live in `/home/user/research-src` (not in the repo; re-clone if the VM is new).
 
 ## Next up
-- Phase 4: design direction. Read impeccable's shape step at `/tmp/skills/impeccable` (re-clone per CLAUDE.md Fallbacks if missing), then write PRODUCT.md + DESIGN.md.
-- Phase 5: the data pipeline first (`pipeline/`: fetch + hash, profile, features, train, conformal calibration, export), then the site.
+- Phase 5a: `pipeline/` in Python: `fetch.py` (clone the Amherst mirror, verify SHA-256), `profile.py` (suppression stats → `data/profile.json`), `features.py`, `train.py` (quantile GBM + baselines, institution-grouped CV), `conformal.py` (Mondrian by size band), `export.py` (compact binary + JSON for the site), `tests/` with pytest.
+- Phase 5b: Vite + TS site per the direction contract; the wow (field + pencil pass) first, then program lookup and statement, then the validation report.
