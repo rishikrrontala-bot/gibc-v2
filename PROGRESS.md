@@ -12,6 +12,7 @@ Running log for the unattended cloud build. A resumed session should read this f
 | Wed Sep 23 · 10:35 PM | 181.2 h | 0: setup |
 | Wed Sep 23 · 10:56 PM | 180.8 h | 1–3: research + concept done, pushed |
 | Wed Sep 23 · 11:00 PM | 180.7 h | 4: design direction done, pushed |
+| Wed Sep 23 · 11:03 PM | 180.7 h | **Paused at Rishik's request** (push everything and stop at 11:06 PM). Phase 5 not started in code |
 
 ## Phase plan (budgeted backwards from the 24 h buffer)
 
@@ -76,7 +77,12 @@ The environment is **not** on Full network access. Verified by probing:
 - The data dictionary lives in the `RTICWDT/college-scorecard` repo at `public/files/CollegeScorecardDataDictionary.xlsx` (git-cloneable).
 - Still needed: per-state high-school earnings thresholds (search a GitHub mirror or the Federal Register via the search index; otherwise document the fallback, e.g. the `EARN_GT_THRESHOLD` share > 0.5).
 - The research clones live in `/home/user/research-src` (not in the repo; re-clone if the VM is new).
+- **Data vintage problem (found 11:02 PM):** the Amherst mirror's Field of Study file was last committed **2023-08-26** (commit `b490439`). It predates the May 2024 NULL→NA change and the June 2024 `EARN_MDN_5YR` columns, so it's a 2023 release. The official site says the data was last updated **June 10, 2026**. Earnings in our file: `EARN_MDN_4YR` = AY2014-15/2015-16 completers measured CY2019/2020 in 2021 dollars; debt `DEBT_ALL_STGP_EVAL_MDN` = pooled AY2018-19/2019-20.
+- **Planned real fix (next step, not yet done):** add `.github/workflows/data-refresh.yml` (runs on push + a weekly cron + workflow_dispatch; `permissions: contents: write`). GitHub-hosted runners have open internet, so it downloads the current official `Most-Recent-Cohorts-Field-of-Study` and `Most-Recent-Cohorts-Institution` zips (find the links on https://collegescorecard.ed.gov/data/, where files are served from `ed-public-download.app.cloud.gov/downloads/…`), records SHA-256 + URL + download time in `manifest.json`, recompresses the CSVs as `.csv.xz`, and commits them to an orphan branch `data`. This VM then runs `git fetch origin data`. Fall back to the 2023 Amherst mirror only if that fails, and disclose the vintage either way. Actions cron replaces n8n for this schedule because it needs no secret (document that in ARCHITECTURE.md).
+- **Facts from the official FoS documentation (Version: September 2025, in the RTICWDT repo at `public/files/FieldOfStudyDataDocumentation.pdf`) that matter for rigor and LIMITATIONS:** debt metrics use cell suppression with undisclosed rules. Earnings use **differentially private noise**; noisy medians with relative error above a threshold are suppressed. Published 1-yr medians are within 1 % of truth 50 % of the time and within 1–4 % 44 % of the time; the median absolute difference is $2,224 (1-yr) and $3,235 (5-yr). That's the irreducible noise floor to compare model error against. `EARN_GT_THRESHOLD_xYR` is a DP-noised **count** of graduates earning more than a high-school graduate (divide by `EARN_COUNT_WNE_xYR` for a share).
+- Python deps installed on this VM: pandas 3.0.6, numpy 2.4.6, scikit-learn 1.9.1, lightgbm 4.7.0, openpyxl, pytest, torch 2.14.0; `poppler-utils` via apt (pypdf is broken here, so use `pdftotext`).
 
 ## Next up
+- Phase 5a-0: the data-refresh workflow above (official June 2026 files via GitHub Actions → `data` branch).
 - Phase 5a: `pipeline/` in Python: `fetch.py` (clone the Amherst mirror, verify SHA-256), `profile.py` (suppression stats → `data/profile.json`), `features.py`, `train.py` (quantile GBM + baselines, institution-grouped CV), `conformal.py` (Mondrian by size band), `export.py` (compact binary + JSON for the site), `tests/` with pytest.
 - Phase 5b: Vite + TS site per the direction contract; the wow (field + pencil pass) first, then program lookup and statement, then the validation report.
