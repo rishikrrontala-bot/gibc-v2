@@ -86,3 +86,11 @@ The environment is **not** on Full network access. Verified by probing:
 - Phase 5a-0: the data-refresh workflow above (official June 2026 files via GitHub Actions → `data` branch).
 - Phase 5a: `pipeline/` in Python: `fetch.py` (clone the Amherst mirror, verify SHA-256), `profile.py` (suppression stats → `data/profile.json`), `features.py`, `train.py` (quantile GBM + baselines, institution-grouped CV), `conformal.py` (Mondrian by size band), `export.py` (compact binary + JSON for the site), `tests/` with pytest.
 - Phase 5b: Vite + TS site per the direction contract; the wow (field + pencil pass) first, then program lookup and statement, then the validation report.
+
+## October 1 continuation — implementation
+
+- 09:35 EDT: resumed at user's request (~2h10 to stated deadline). Found this planning branch and fast-forwarded main locally to it.
+- 09:40: recovered original Withheld concept; downloaded official June 10, 2026 Scorecard files directly. Old mirror counts are superseded.
+- 09:49: trained three real quantile models, institution-grouped splits and size-band calibration. Current export: 194,211 program records, 137,408 suppressed, 50,042 supported estimates. No federal threshold claims; editable illustrative benchmark instead.
+- 09:56: built and tested search, program explorer, evidence, calculator, comparison, CSV and validation views. Fixed the exact-debt input step mismatch and mobile filters. Browser checks continue; no submission to Devpost has occurred.
+- Immediate next: finish browser verification, publish, record captioned demo, generate gallery and truthful submission handoff.
