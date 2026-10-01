@@ -17,3 +17,6 @@ __pycache__/
 .venv/
 /tmp/
 data/raw/
+
+# Reproducible but bulky local narration intermediate
+submission/video/narration.wav

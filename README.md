@@ -2,7 +2,9 @@
 
 **College outcomes, with the gaps left in.**
 
-[Open the live explorer](https://rishikrrontala-bot.github.io/gibc-v2/) · [Submission draft](submission/DEVPOST.md) · [Validation data](public/data/metrics.json) · [Limitations](docs/LIMITATIONS.md)
+![Withheld — the information gap made visible](submission/gallery/01-the-gap.png)
+
+[Open the live explorer](https://rishikrrontala-bot.github.io/gibc-v2/) · [Demo video (download)](submission/video/demo.mp4) · [Submission draft](submission/DEVPOST.md) · [Validation data](public/data/metrics.json) · [Limitations](docs/LIMITATIONS.md)
 
 Built by **Rishik Rontala**, solo, for **Global Innovation Build Challenge V2 — Track 02: Applied (Medical Technology & Finance)**.
 
@@ -103,7 +105,7 @@ The downloader verifies the pinned official ZIP hashes before extraction. Traini
 
 ## Demonstration and submission
 
-The prepared demo, screenshots, script and paste-ready Devpost text live under [`submission/`](submission/). The video must still be uploaded to **YouTube, Vimeo or Youku** and its URL added to Devpost. A GitHub-hosted MP4 alone does not meet the event's video-host requirement. See [`HANDOFF.md`](HANDOFF.md) for the actual remaining steps.
+The prepared demo, screenshots, script and paste-ready Devpost text live under [`submission/`](submission/). The [saved Devpost draft](https://devpost.com/software/withheld-uneh3q) already contains the write-up, links, technologies, six screenshots and thumbnail. The video must still be uploaded to **YouTube, Vimeo or Youku** and its URL added to Devpost. A GitHub-hosted MP4 alone does not meet the event's video-host requirement. See [`HANDOFF.md`](HANDOFF.md) for the actual remaining steps.
 
 ## Limitations and scope
 

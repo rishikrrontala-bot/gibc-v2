@@ -1,0 +1,74 @@
+[
+  {
+    "id": "intro",
+    "text": "Some numbers are withheld. Your questions shouldn't be. In this College Scorecard release, seventy point eight percent of program records suppress their five year earnings. Withheld makes that missing information visible, then shows what a model can cautiously estimate.",
+    "start": 0,
+    "duration": 17.862666666666666
+  },
+  {
+    "id": "search",
+    "text": "This is a working research prototype built by Rishik Rontala for the Global Innovation Build Challenge. Search more than thirty five hundred colleges. Let's open Rutgers and explore an aerospace engineering program.",
+    "start": 17.862666666666666,
+    "duration": 15.537333333333333
+  },
+  {
+    "id": "estimate",
+    "text": "The teal label matters: this is a model estimate, not an official outcome. The middle estimate is about ninety four thousand dollars, with a target eighty percent interval from roughly eighty eight to one hundred five thousand. The interval describes a program median, not an individual's salary.",
+    "start": 33.4,
+    "duration": 20.209333333333333
+  },
+  {
+    "id": "evidence",
+    "text": "Open the evidence explanation. The model uses public program attributes and comparable training programs. When there are fewer than thirty training peers in the same field and credential, Withheld declines to estimate. Other kinds of missing data stay unavailable.",
+    "start": 53.60933333333333,
+    "duration": 18.481333333333332
+  },
+  {
+    "id": "loan",
+    "text": "The calculator turns a hypothetical loan into monthly terms. Change the amount and rate, and the payment updates immediately. Twelve thousand dollars over ten years at zero interest is one hundred dollars a month. This is an illustration, not a borrowing recommendation.",
+    "start": 72.09066666666666,
+    "duration": 19.441333333333333
+  },
+  {
+    "id": "published",
+    "text": "Now add this program to a comparison, then find a published computer science outcome. Published observations keep a distinct label. The interface never quietly replaces an official value with a model prediction.",
+    "start": 91.532,
+    "duration": 15.665333333333333
+  },
+  {
+    "id": "compare",
+    "text": "Compare programs side by side while keeping their sources and uncertainty visible. An editable benchmark is only your reference, not a federal eligibility threshold. Export the comparison as a CSV with the source labels and release date intact.",
+    "start": 107.19733333333333,
+    "duration": 18.22533333333333
+  },
+  {
+    "id": "metrics",
+    "text": "The methodology page shows the evidence behind the design. Institution families are separated into training, calibration and test groups. On eight thousand seven hundred twenty three held out published outcomes, the model's average absolute error is about nine thousand thirty dollars.",
+    "start": 125.42266666666666,
+    "duration": 19.718666666666667
+  },
+  {
+    "id": "baselines",
+    "text": "That improves on the field and credential median baseline. But the intervals cover only seventy seven point six percent of test outcomes against an eighty percent target. Coverage is lower for small programs. Both the improvement and the shortfall are reported.",
+    "start": 145.14133333333334,
+    "duration": 18.972
+  },
+  {
+    "id": "pipeline",
+    "text": "Under the hood, three Light G B M quantile models learn from field, credential, state, institution type and completions. Separate calibration data expands their intervals. A frozen, reproducible pipeline exports the results, and the browser searches them without an account or a paid API.",
+    "start": 164.11333333333334,
+    "duration": 21.532
+  },
+  {
+    "id": "limits",
+    "text": "The most important limitation is simple: we cannot test against outcomes the government has not published. Suppression is not random. Performance on published programs does not establish reliability on suppressed programs. These estimates do not recover private data or automate real money decisions.",
+    "start": 185.64533333333335,
+    "duration": 21.532
+  },
+  {
+    "id": "close",
+    "text": "Withheld brings the question, the evidence and the uncertainty into the same view. The source code, model files, data provenance and validation results are public. Explore the live prototype, inspect the work, and keep the gaps in sight.",
+    "start": 207.17733333333337,
+    "duration": 16.732
+  }
+]

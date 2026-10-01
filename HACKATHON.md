@@ -1,7 +1,7 @@
 # Global Innovation Build Challenge V2
 
 **Event page:** https://gibc-v2.devpost.com/  ·  **Rules:** https://gibc-v2.devpost.com/rules
-**Deadline:** **Thu Oct 1, 2026 · 11:45 AM EDT**  (`2026-10-01T11:45:00-04:00`)
+**Current deadline:** **Fri Oct 2, 2026 · 11:45 AM EDT** (`2026-10-02T15:45:00Z`), returned by the connected Devpost API on October 1 after the extension. Submission status: open. Historical page text below predates the extension.
 > Devpost lists it as Oct 1, 2026 @ 11:45pm GMT+8. That is **morning** in New York. Closing ceremony Oct 8.
 
 *Facts read from the live Devpost page on 2026-09-23. ⚠ = unconfirmed, so verify before relying on it.*

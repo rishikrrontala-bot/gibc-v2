@@ -94,3 +94,23 @@ The environment is **not** on Full network access. Verified by probing:
 - 09:49: trained three real quantile models, institution-grouped splits and size-band calibration. Current export: 194,211 program records, 137,408 suppressed, 50,042 supported estimates. No federal threshold claims; editable illustrative benchmark instead.
 - 09:56: built and tested search, program explorer, evidence, calculator, comparison, CSV and validation views. Fixed the exact-debt input step mismatch and mobile filters. Browser checks continue; no submission to Devpost has occurred.
 - Immediate next: finish browser verification, publish, record captioned demo, generate gallery and truthful submission handoff.
+
+## October 1 continuation — deployment and submission package
+
+Clock: October 1, 2026, approximately 4:45 PM EDT. Connected Devpost now reports an extended deadline of October 2 at 11:45 AM EDT, about 19 hours away; submission creation succeeded with Draft status.
+
+- Published the complete build to main through connected GitHub Git Data APIs after normal git push lacked credentials. Remote app commit b2a1634cfe929fb0ecd25343061e1ffa14daafed.
+- GitHub CI run 36922898067 and Pages run 36922898026 succeeded. Live browser search → program → comparison → methodology verified with zero page errors.
+- Final mobile and retry tests passed. Corrected non-suppression missing-data explanations; they no longer incorrectly claim insufficient peers.
+- Six original 1500×1000 captioned screenshots and a thumbnail captured from the real app. Narration generated with Kokoro's stock af_heart voice (disclosed); measured duration 223.91 seconds. Real browser recording in progress.
+- Created Devpost draft Withheld, project 1455179, slug withheld-uneh3q, submission 1209393. No final submission attempted. External video-host URL remains a user handoff step.
+- Added DATA.md, EXPLAIN-IT.md, paste-ready submission description, timed narration, reproducible capture scripts and final handoff.
+
+- Devpost image uploads succeeded: six gallery photos (5485517, 5485520, 5485522, 5485525, 5485529, 5485527) and thumbnail 5485531. Draft remains unsubmitted with no video URL.
+
+## Final package verification — October 1, 2026, approximately 4:56 PM EDT
+
+- Finished video: 223.916667 seconds, H.264 1920×1080, AAC English narration, burned-in English subtitles, 6,553,065 bytes. Full decode passed; estimate, comparison and methodology frames visually inspected after fixing subtitle size and comparison framing.
+- All 12 unit/data-integrity tests and 3 end-to-end browser tests pass on the final app. Data verification independently confirms MAE $9,029.87, coverage 77.554%, no institution-family overlap.
+- Gallery and thumbnail CDN URLs responded successfully after processing. All local README/docs links resolve once the video is included.
+- No YouTube/Vimeo upload capability is connected. The ready MP4, accepted-host upload, track selection, participant declarations and final Submit remain clearly documented in HANDOFF.md. No competition submission was performed.
