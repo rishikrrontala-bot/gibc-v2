@@ -1,6 +1,6 @@
 # Withheld — ML Empowerment Build Challenge 3.0
 
-Prepared October 2, 2026. This is a proposed alternate entry, not proof of submission.
+**Submitted October 2, 2026 at 6:24 PM EDT. Verified live on Devpost. Submission ID: 1211798.**
 
 Event: https://ml-build-challenge-3.devpost.com/
 Project: https://devpost.com/software/withheld-uneh3q
@@ -79,6 +79,6 @@ AI-use disclosure
 Rishik Rontala directed the project. OpenAI Codex assisted substantially with implementation, the data pipeline, validation, documentation and demo production. Claude Code assisted with earlier concept development and research. The demo uses a disclosed synthetic Kokoro narrator; it does not impersonate Rishik. The app itself uses trained tabular models, not a conversational LLM. No fabricated users, interviews, endorsements or validation results are included.
 
 
-## Pending action
+## Confirmed result
 
-Confirm final submission to ML Empowerment Build Challenge 3.0. On confirmation, update the project with the context above, submit the existing Withheld project (1455179), and verify submitted_at live. Do not claim completion from this document alone.
+Devpost returned status `Submitted` at `2026-10-02T18:24:01.224-04:00`. Live readback confirmed the project is published and its ML Empowerment hackathon entry has this submitted_at timestamp. Confirmation is saved in `submission/CONFIRMATION.json`. The GIBC entry remains unsubmitted.

@@ -6,7 +6,7 @@
 
 [Open the live explorer](https://rishikrrontala-bot.github.io/gibc-v2/) · [Demo video (download)](submission/video/demo.mp4) · [Submission draft](submission/DEVPOST.md) · [Validation data](public/data/metrics.json) · [Limitations](docs/LIMITATIONS.md)
 
-Built by **Rishik Rontala**, solo, for **Global Innovation Build Challenge V2 — Track 02: Applied (Medical Technology & Finance)**.
+Built by **Rishik Rontala**, solo. Originally prepared for Global Innovation Build Challenge V2; its entry remained a draft when that event closed. **Submitted to [ML Empowerment Build Challenge 3.0](https://ml-build-challenge-3.devpost.com/) on October 2, 2026 at 6:24 PM EDT**, verified live. [Public project](https://devpost.com/software/withheld-uneh3q) · [Confirmation](submission/CONFIRMATION.json).
 
 ## The problem
 
@@ -105,7 +105,7 @@ The downloader verifies the pinned official ZIP hashes before extraction. Traini
 
 ## Demonstration and submission
 
-The prepared demo, screenshots, script and paste-ready Devpost text live under [`submission/`](submission/). The [saved Devpost draft](https://devpost.com/software/withheld-uneh3q) already contains the write-up, links, technologies, six screenshots and thumbnail. The video must still be uploaded to **YouTube, Vimeo or Youku** and its URL added to Devpost. A GitHub-hosted MP4 alone does not meet the event's video-host requirement. See [`HANDOFF.md`](HANDOFF.md) for the actual remaining steps.
+The prepared demo, screenshots, script and paste-ready Devpost text live under [`submission/`](submission/). The [published Devpost project](https://devpost.com/software/withheld-uneh3q) contains the write-up, links, technologies, six screenshots and thumbnail. The ML Empowerment entry was submitted using screenshots; a hosted video is optional for that event. The prepared MP4 is downloadable. It has not been uploaded to YouTube, Vimeo or Youku. See [`HANDOFF.md`](HANDOFF.md) for the actual remaining steps.
 
 ## Limitations and scope
 

@@ -114,3 +114,9 @@ Clock: October 1, 2026, approximately 4:45 PM EDT. Connected Devpost now reports
 - All 12 unit/data-integrity tests and 3 end-to-end browser tests pass on the final app. Data verification independently confirms MAE $9,029.87, coverage 77.554%, no institution-family overlap.
 - Gallery and thumbnail CDN URLs responded successfully after processing. All local README/docs links resolve once the video is included.
 - No YouTube/Vimeo upload capability is connected. The ready MP4, accepted-host upload, track selection, participant declarations and final Submit remain clearly documented in HANDOFF.md. No competition submission was performed.
+
+## October 2, 2026 — alternate event submitted
+
+User explicitly confirmed submission to ML Empowerment Build Challenge 3.0. The connected Devpost API confirmed registration, open phase, no custom questions and no mandatory hosted video. Existing screenshots satisfy its media requirement. Credential scan passed. Updated the project description with intended users and honest prior-work history, then submitted project 1455179.
+
+Devpost response: submission 1211798, status Submitted, timestamp 2026-10-02T18:24:01.224-04:00. Live get_project readback confirmed published state and this event's submitted_at. GIBC submitted_at remains null. Saved receipt and corrected current handoff/README.
